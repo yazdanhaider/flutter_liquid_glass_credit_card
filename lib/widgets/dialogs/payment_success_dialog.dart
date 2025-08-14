@@ -72,25 +72,17 @@ class PaymentSuccessDialog extends StatelessWidget {
   }
 
   Widget _buildDoneButton() {
-    return GestureDetector(
-      onTap: onClose,
-      child: Container(
-        width: double.infinity,
-        height: 48,
-        decoration: const BoxDecoration(
-          gradient: AppColors.primaryGradient,
-          borderRadius: BorderRadius.all(Radius.circular(12)),
-        ),
-        child: Center(
-          child: Text(
-            'Done',
-            style: GoogleFonts.inter(
-              fontSize: 16,
-              fontWeight: FontWeight.w600,
-              color: AppColors.textLight,
-            ),
-          ),
-        ),
+    return ElevatedButton(
+      onPressed: onClose,
+      style: ElevatedButton.styleFrom(
+        backgroundColor: AppColors.primary,
+        foregroundColor: Colors.white,
+        padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 12),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+      ),
+      child: const Text(
+        'Done',
+        style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
       ),
     );
   }

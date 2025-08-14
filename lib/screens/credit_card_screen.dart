@@ -144,7 +144,24 @@ class _CreditCardScreenState extends State<CreditCardScreen>
   }
 
   void _onPayPressed() {
-    PaymentSuccessDialog.show(context, _onCancelPressed);
+    PaymentSuccessDialog.show(context, () {
+      Navigator.of(context).pop();
+      _clearAllFields();
+    });
+  }
+
+  void _clearAllFields() {
+    _cardNumberController.clear();
+    _nameController.clear();
+    _expiryController.clear();
+    _cvvController.clear();
+
+    setState(() {
+      cardNumber = '';
+      cardHolderName = '';
+      expiryDate = '';
+      cvv = '';
+    });
   }
 
   @override
@@ -186,7 +203,7 @@ class _CreditCardScreenState extends State<CreditCardScreen>
     return Column(
       children: [
         Text(
-          'Liquid Glass',
+          'Metal',
           style: GoogleFonts.inter(
             fontSize: 32,
             fontWeight: FontWeight.bold,
