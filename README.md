@@ -2,6 +2,9 @@
 
 A premium, realistic **metal credit card** UI implementation built with Flutter featuring advanced glass morphism effects, motion detection, authentic EMV chip design, and **metallic finish** that mimics real premium credit cards.
 
+
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/982f35f1-6baa-45bc-985d-045f8f835b14" />
+
 ## 🏆 **What Makes It Special**
 
 This project creates **authentic metal credit card** experiences with:
@@ -11,6 +14,9 @@ This project creates **authentic metal credit card** experiences with:
 - **Motion-responsive 3D effects** for immersive experience
 - **Professional banking-grade** UI components
 - **Cross-platform metal card** design system
+
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/adf72add-4f44-4787-bbf3-42f0207e1c0b" />
+
 
 ## ✨ Features
 
@@ -191,7 +197,7 @@ This project is licensed under the MIT License
 
 - **Issues**: [GitHub Issues](https://github.com/yazdanhaider/flutter_liquid_glass_credit_card/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yazdanhaider/flutter_liquid_glass_credit_card/discussions)
-- **Email**: [yazdanhaider@example.com](mailto:yazdanhaider@example.com)
+- **Email**: [yazdanhaider007@gmail.com](mailto:yazdanhaider007@gmail.com)
 
 ---
 
